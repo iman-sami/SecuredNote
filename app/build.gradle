@@ -6,7 +6,9 @@ plugins {
 android {
     namespace 'com.imanp.securenote'
     compileSdk 32
-
+    buildFeatures{
+        viewBinding true
+    }
     defaultConfig {
         applicationId "com.imanp.securenote"
         minSdk 21
